@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Allows the website to be viewed on a mobile so the browser knows to adapt to the different screensize. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Allows the website to have the style code written on a different page. -->
+    <!-- Having the style done somewhere else makes the website code easier to read and look more organised. -->
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <!-- The <header> tag is used to clearly state what type of information is being written here. -->
+        <!-- Title is the class I have given the heading so I can customize it in the css page.. -->
+        <h1 class="Title">500 days of summer</h1>
+      </div>
+      <nav class="AboutLinks">
+        <!-- <nav> is showing that the menue links are being written at the top of the page. -->
+        <!-- Having both links on the main page displays all of the content displayed throughout the website. -->
+        <a class="Link1" href="About.html">About</a>
+        <a class="Link2" href="Cast.html">Cast</a>
+      </nav>
+    </header>
+
+    <article>
+      <!-- Synopsis gives the viewer a brief description of the film. -->
+      <!-- Separating the Synopsis into two sections helps the reader break down the information. -->
+      <div class="Synopsis">
+        <p>Tom (Joseph Gordon-Levitt), greeting-card writer and hopeless romantic, is caught completely off-guard when his girlfriend, Summer (Zooey Deschanel), suddenly dumps him. He reflects on their 500 days together to try to figure out where their love affair went sour, and in doing so, Tom rediscovers his true passions in life.
+        <p>directed by marc webb and starring joseph gordon levitt as Tom, this film really opens your eyes on what it means to be in love
+          and not the idea of love. no film has done it as well marc webb did in this film. Marc even throws in some funny action sequences (a hint towards his future career as spiderman) (<i>500 days of summer </i>, 2009).</p>
+      </div>
+
+      <div class="Trailer">
+        <!-- Video file gives a sense what the film is about. -->
+        <!-- This ensures the viewer sees the video and does not miss anything. -->
+        <video controls poster="Image/SunRise.jpg.webp">
+          <!-- The postimage is there to cover up the video but gives a sense of what it will feature. -->
+          <!-- It is a jpg as it is a widely used image format and prevents alternate formats being added. -->
+          <source src="Video/Space.mp4" type="video/mp4"/>
+          <!-- Pop up if the browser does not support the video file type -->
+          <!-- MP4 was the default format for the video but also a widely used video format. -->
+          Sorry, your browser does not support this video file format :(
+          <source src="Video/Space.ogg" type="video/ogg">
+          <!-- Pop up if the browser does not support the video file type -->
+          <!-- OGG is not as common so it is the backup format if the MP4 file isn't read by the browser. -->
+          Sorry, your browser does not support this video file format :(
+        </video>
+      </div>
+    </article>
+
+    <!-- Footer sets up additional information to be added at the bottom of the page when being separate from the body of the website. -->
+    <footer class="FooterLink1">
+      <!-- External link to youtube shows the official trailer for the film. -->
+      <a href="https://www.youtube.com/watch?v=PsD0NpFSADM">YouTube: 500 days of summer trailer</a>
+    </footer>
+  </body>
+</html>

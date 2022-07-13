@@ -1,0 +1,247 @@
+body{
+background-color: black;
+max-width: 100%;
+max-height: 100%;
+border-style: double;
+border-width: 15px;
+color: white;
+}
+/* The body has the background colour set to black to give the impression of the darkness of space. */
+/* It will also allow the elements of the page to stand out easier. */
+/* The width and height of the page has been set to 100% to make sure the page fots the layout and everything is to scale. */
+/* Adding a border to the body ensures the boundaries of the page are clear and apply attention to everything within it. */
+
+.Title{
+  margin: 10px;
+  padding: 4px;
+  text-decoration: underline;
+  font-size: 36px;
+  text-align: center;
+  color: darkblue;
+  background-color: darkgrey;
+  font-family: monospace;
+}
+/* The margin and padding of the title makes it stand out against the other elements around it, espeially the border */
+/* Text-align sets the text o a certain area of the page so it can be fit the given layout and stand out. */
+/* The decoration (under-line, colour, and font) gives the title more standing and importance over the text below it. */
+
+.AboutLinks{
+  margin: 10px;
+  padding: 2px;
+  text-align:center;
+  font-size: 26px;
+  font-family: monospace;
+  background-color: darkgrey;
+}
+/* The margin and padding of the links make them stand out against the other elements around it like the title due to their vital use */
+/* Text-align sets the text to a certain area of the page so it can be fit the given layout and stand out. */
+/* The background-colour allows the links to still be seen with the black background due to them turning a darkpurple once used. */
+
+.Link2{
+  text-indent: 3px;
+}
+/* Due to the links being very close together, an indent was added to give them more space and make it easier to differentiate between the two. */
+
+.Synopsis{
+  margin: 20px;
+  text-align: justify;
+  background-color: darkgrey;
+  padding: 5px;
+  color: darkblue;
+  font-size: 22px;
+  font-family: monospace;
+}
+
+Container .Trailer{
+  display: flex;
+  justify-content: center;
+  margin-left: 150px;
+}
+/* Controlling the position of the video was very challenging, so i added a container element to add more control.*/
+/* This stopped it being a foreign element added into the code but something I jave created which is adjusted easier.*/
+
+.FooterLink1{
+  margin: 6px;
+  padding: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-family: monospace;
+  background-color: darkgrey;
+}
+/* The margin and padding of the link make them stand out against the other elements like the main body of the page. */
+/* Text-align sets the text to a certain area of the page so it can be fit the given layout and stand out. */
+/* The background-colour allows the links to still be seen with the black background due to them turning a darkpurple once used. */
+
+.CastLinks{
+  margin: 10px;
+  padding: 2px;
+  text-align:center;
+  font-size: 26px;
+  font-family: monospace;
+  background-color: darkgrey;
+}
+/* The margin and padding of the links make them stand out against the other elements around it like the title due to their vital use */
+/* Text-align sets the text to a certain area of the page so it can be fit the given layout and stand out. */
+/* The background-colour allows the links to still be seen with the black background due to them turning a darkpurple once used. */
+
+.CastImg1{
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+  border: solid; white;
+  position: static;
+}
+/* The width and height set the dimentions of the image*/
+/*The margin gives some space between the page border and the image and the image and the text that goes next to it.*/
+/* The white border defines the edge of the image against the black background. */
+/* The static position ensures the element stays where the browser has placed it so it doesnt move. */
+
+.CastTxt1-1{
+  font-size: 18px;
+  font-family: monospace;
+  float: right;
+  text-align: justify;
+  padding: 25px;
+  position: relative;
+  bottom: 350px;
+  padding-left: 235px;
+}
+/* Decorations (size, font, padding, align) set the text to look how i want it to look on the page. */
+/* Float moves the text so it doesn't automatically go underneith the pevious element but rather next to it on the right. */
+/* Relative positioning, as well as the directional intructions, move the text from its origian;l place to where I want it pixel by pixel. */
+
+.CastTxt1-2{
+  font-size: 18px;
+  font-family: monospace;
+  float: right;
+  text-align: justify;
+  padding: 25px;
+  position: relative;
+  bottom: 350px;
+  padding-left: 235px;
+}
+/* Decorations (size, font, padding, align) set the text to look how i want it to look on the page. */
+/* Float moves the text so it doesn't automatically go underneith the pevious element but rather next to it on the right. */
+/* Relative positioning, as well as the directional intructions, move the text from its origian;l place to where I want it pixel by pixel. */
+
+
+.Audio1{
+  position: relative;
+  bottom: 660px;
+  left: 600px;
+}
+/* Relative positioning, as well as the directional intructions, move the text from its origian;l place to where I want it pixel by pixel. */
+
+.CastImg2{
+  width: 200px;
+  height:300px;
+  margin: 20px;
+  border: solid; white;
+  position: relative;
+  left: -304px;
+  top: -350px;
+}
+/* The width and height set the dimentions of the image*/
+/*The margin gives some space between the page border and the image and the image and the text that goes next to it.*/
+/* The white border defines the edge of the image against the black background. */
+/* Relative positioning, as well as the directional intructions, move the text from its origian;l place to where I want it pixel by pixel. */
+
+.CastTxt2-1{
+font-size: 18px;
+font-family: monospace;
+float: right;
+text-align: justify;
+padding: 25px;
+padding-left: 235px;
+position: relative;
+top: -700px;
+}
+/* Decorations (size, font, padding, align) set the text to look how i want it to look on the page. */
+/* Float moves the text so it doesn't automatically go underneith the pevious element but rather next to it on the right. */
+/* Relative positioning, as well as the directional intructions, move the text from its origian;l place to where I want it pixel by pixel. */
+
+
+.CastTxt2-2{
+  font-size: 18px;
+  font-family: monospace;
+  float: right;
+  text-align: justify;
+  padding: 25px;
+  padding-left: 235px;
+  position: relative;
+  top: -755px;
+}
+/* Decorations (size, font, padding, align) set the text to look how i want it to look on the page. */
+/* Float moves the text so it doesn't automatically go underneith the pevious element but rather next to it on the right. */
+/* Relative positioning, as well as the directional intructions, move the text from its origian;l place to where I want it pixel by pixel. */
+
+
+.Audio2{
+  position: relative;
+  top: -1085px;
+  right: -600px;
+}
+/* Relative positioning, as well as the directional intructions, move the text from its origian;l place to where I want it pixel by pixel. */
+
+.CastImg3{
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+  border: solid; white;
+  position: relative;
+  right: 255px;
+  top: -675px;
+}
+/* The width and height set the dimentions of the image*/
+/*The margin gives some space between the page border and the image and the image and the text that goes next to it.*/
+/* The white border defines the edge of the image against the black background. */
+/* Relative positioning, as well as the directional intructions, move the text from its origian;l place to where I want it pixel by pixel. */
+
+.CastTxt3-1{
+  font-size:18px;
+  font-family: monospace;
+  float: right;
+  text-align: justify;
+  padding: 25px;
+  padding-left: 235px;
+  position: relative;
+  bottom: 1020px;
+}
+/* Decorations (size, font, padding, align) set the text to look how i want it to look on the page. */
+/* Float moves the text so it doesn't automatically go underneith the pevious element but rather next to it on the right. */
+/* Relative positioning, as well as the directional intructions, move the text from its origian;l place to where I want it pixel by pixel. */
+
+
+.CastTxt3-2{
+  font-size: 18px;
+  font-family: monospace;
+  float: right;
+  text-align: justify;
+  padding: 25px;
+  padding-left: 235px;
+  position: relative;
+  bottom: 1075px;
+}
+/* Decorations (size, font, padding, align) set the text to look how i want it to look on the page. */
+/* Float moves the text so it doesn't automatically go underneith the pevious element but rather next to it on the right. */
+/* Relative positioning, as well as the directional intructions, move the text from its origian;l place to where I want it pixel by pixel. */
+
+
+.Audio3{
+  position: relative;
+  bottom: 700px;
+  left: 50px;
+}
+/* Relative positioning, as well as the directional intructions, move the text from its origian;l place to where I want it pixel by pixel. */
+
+.FooterLink2{
+  margin: 6px;
+  padding: 5px;
+  background-color: darkgrey;
+  text-align: center;
+  font-size: 18px;
+  font-family: monospace;
+}
+/* The margin and padding of the link make them stand out against the other elements like the main body of the page. */
+/* Text-align sets the text to a certain area of the page so it can be fit the given layout and stand out. */
+/* The background-colour allows the links to still be seen with the black background due to them turning a darkpurple once used. */

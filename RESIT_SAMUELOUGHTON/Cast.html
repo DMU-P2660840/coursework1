@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <!-- Allows the website to be viewed on a mobile so the browser knows to adapt to the different screensize. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Allows the website to have the style code written on a different page. -->
+    <!-- Having the style done somewhere else makes the website code easier to read and look more organised. -->
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <!-- The <header> tag is used to clearly state what type of information is being written here. -->
+        <!-- Title is the class I have given the heading so I can customize it in the css page. -->
+        <h1 class="Title">500 days of summer</h1>
+      </div>
+      <nav class="CastLinks">
+        <!-- <nav> is showing that the menue links are being written at the top of the page. -->
+        <!-- Having both links on the main page displays all of the content displayed throughout the website. -->
+        <a class="Link1" href="About.html">About</a>
+        <a class="Link2" href="Cast.html">Cast</a>
+      </nav>
+    </header>
+    <!-- <article> tage shows where the main body of the page will be. When it comes to looking back at the code, i will not have issues wondering where the information begins and ends. -->
+    <!-- Giving the article a class name gives me a fail-safe is i needed to edit the style of all of the content later in one go.-->
+    <article class="CastInfo">
+      <!-- A class it given to the cast image so i can easily find it and adjust it in the css page.  -->
+      <img class="CastImg1" src="Image/download.jpg" alt="Keanu">
+      <!-- The <strong> tag sets certain aspects of the text to appear in bold to make it stand out for the reader. -->
+      <!-- I have done this due to the importnce of the names that are being made bold. -->
+      <p class="CastTxt1-1"><strong>Joseph gorden levitt</strong> is an American actor who was 29 years-old at the time of making this film.
+        His previous roles included '<strong>inception</strong>', '<strong>Dark knight rises</strong>', and '<strong>50/50</strong>'.
+        <strong>Levitt</strong> played a key role in '<strong>500 days of summer</strong>' as the main person called Tom
+        who get dumped by summer, but Levitt has come out and said tom was actually in the wrong and created the idea of summer in his head.</p>
+      <br> <!-- Page Break gives the two bodies of text some room to space them out and avoids them clashing together when other elemts are moved using css. -->
+      <p class="CastTxt1-2">Tom is a very clever man who really should be doing more with his life as shown at the beginning of the film, but
+        his idea of the one hinders him from finding who he really is!.</p>
+        <!-- The control element is added to allow the viewer to play and pause the audio file.  -->
+      <audio class="Audio1" controls>
+        <!-- More than one file format was used in case the browser does not support either one of them. -->
+          <source src="Audio/jglinterview.mp3" type="audio/mp3">
+            <!-- Error message should pop up if the audio file is not support by the broawer. -->
+            Sorry, your browser doesn't support this auido file type.
+          <source src="Audio/jgl.wav" type="audio/wav">
+            Sorry, your browser doesn't support this audio file type.
+      </audio>
+
+  <!-- A class it given to the cast image so i can easily find it and adjust it in the css page.  -->
+      <img class="CastImg2" src="Image/zoey.jpg" alt="zoey">
+      <!-- The <strong> tag sets certain aspects of the text to appear in bold to make it stand out for the reader. -->
+      <!-- I have done this due to the importnce of the names that are being made bold. -->
+      <p class="CastTxt2-1"><strong>zoey deschanel </strong> is an Americn actress, who prior to this movie, worked on other titles
+        such as, '<strong>new girl</strong>', '<strong>Elf</strong>', and '<strong>yes man</strong>'. Her charcter, 'Summer'
+      is the love intrest for tom throughout the film, she is very down to earth and always knows what she wants. Problem
+    for tom is that she does not believe in love.</p>
+      <br> <!-- Page Break gives the two bodies of text some room to space them out and avoids them clashing together when other elemts are moved using css. -->
+      <p class="CastTxt2-2"> Throughout the film we are lead to believe she is a horrible person because of tom and his perspective on her. This is not true as summer
+      told tom from the start that she didn't want anything serious!</p>
+      <audio class="Audio2" controls>
+          <!-- The control element is added to allow the viewer to play and pause the audio file.  -->
+          <!-- More than one file format was used in case the browser does not support either one of them. -->
+        <source src="Audio/zoey.mp3" type="audio/wav">
+          <!-- Error message should pop up if the audio file is not support by the broawer. -->
+          Sorry, your browser doesn't support this audio file type.
+        <source src="Audio/zoey.mp3" type="audio/mp3">
+          Sorry, your browser doesn't support this audio file type.
+      </audio>
+
+
+      <img class="CastImg3" src="Image/Chloe.jpg" alt="Jaden">
+      <!-- The <strong> tag sets certain aspects of the text to appear in bold to make it stand out for the reader. -->
+      <!-- I have done this due to the importnce of the names that are being made bold. -->
+      <p class="CastTxt3-1">Chloë Grace Moretz was 11 in 500 Days of Summer when she played the character 'Rachel Hansen'. That was over 12 years ago in 2009. Today she is 23, and has starred in 51 movies in total, 32 since 500 Days of Summer was released.
+        <br> <!-- Page Break gives the two bodies of text some room to space them out and avoids them clashing together when other elemts are moved using css. -->
+      <p class="CastTxt3-2">Chloe is not in much as the film but when she is she makes a massive impact as she is the only person
+      to give tom advice and the advice is always right. Best quote is "just because she has everything in common with you
+      doesn't make her your soul mate tom" Brilliant charcter and always comes into the film just when the audience and tom needs her the most!</p>
+      <audio class="Audio3" controls>
+        <!-- The control element is added to allow the viewer to play and pause the audio file.  -->
+        <!-- More than one file format was used in case the browser does not support either one of them. -->
+        <source src="Audio/chloe.mp3" type="audio/wav">
+          <!-- Error message should pop up if the audio file is not support by the broawer. -->
+          Sorry, your browser doesn't support this audio file type.
+        <source src="Audio/chloe.mp3" type="audio/mp3">
+          Sorry, your browser doesn't support this audio file type.
+      </audio>
+
+      <img src="Image/SiteImg.jpeg" alt="Alien">
+    </article>
+  <!-- Footer sets up additional information to be added at the bottom of the page when being separate from the body of the website. -->
+    <footer class="FooterLink2">
+      <!-- External link to youtube shows the official trailer for the film. -->
+      <a href="https://www.youtube.com/watch?v=1hyEnE1SwQA">YouTube: i love the smiths scene</a>
+    </footer>
+  </body>
+</html>
